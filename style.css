@@ -53,7 +53,9 @@ body {
     align-items: center;
     justify-content: space-evenly;
     gap: 1.5rem;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
+    background-color: #1A1A1A;
+    color: white;
 
 }
 
@@ -107,6 +109,9 @@ h3 {
     gap: 1.5rem;
     
 }
+.section:hover{
+    box-shadow: 0 10px 15px rgb(255, 255, 255);
+}
 
 .coding,
 .mental-health,
@@ -123,8 +128,8 @@ h3 {
 .coding,
 .mental-health,
 .studying,
-.travelling {
-    box-shadow: 0 5px 11px rgba(33, 33, 33, .2);
+.travelling:hover{
+    box-shadow: 0 8px 11px rgb(245, 239, 239);
 }
 
 .coding,
@@ -156,7 +161,7 @@ h3 {
     border: 2px solid #1A1A1A;
     border-radius: 15px;
     box-sizing: border-box;
-    color: #3B3B3B;
+    color: #cdbcbc;
     cursor: pointer;
     display: inline-block;
     font-family: "arial";
@@ -177,4 +182,6 @@ h3 {
     color: #fff;
     background-color: #1A1A1A;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    border:3px solid white;
+    border-radius: 30%;
 }
