@@ -12,6 +12,7 @@ body {
     font-family: 'Rubik Distressed', cursive;
     /* background: url(/images/backhround-image.avif);
     object-fit: cover; */
+    background: black;
 
 }
 
@@ -219,7 +220,7 @@ h3 {
     /* max-width: 900px; */
     background: #01d28e !important;
     padding: 25px;
-    box-shadow: 0 10px 15px rgb(3, 3, 3);
+    box-shadow: 0 10px 15px rgb(255, 253, 253);
 }
 
 .right {
