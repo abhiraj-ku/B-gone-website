@@ -8,11 +8,11 @@
 
 body {
 
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Rubik Distressed', cursive;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Rubik Distressed', cursive; */
     /* background: url(/images/backhround-image.avif);
     object-fit: cover; */
-    background: black;
+   
 
 }
 
@@ -39,18 +39,6 @@ body {
     padding-bottom: 6rem;
 }
 
-.site-name {
-    /* text-shadow: 2px 8px 10px rgba(198, 104, 219, 1), */
-    color: #cfc547;
-
-    text-shadow: 10px 10px 25px rgb(81,67,21),
-        -10px 10px 25px rgb(81,67,21),
-        -10px -10px 25px rgb(81,67,21),
-        10px -10px 25px rgb(81,67,21);
-    font-size: 3rem;
-    font-weight: 500;
-    /* text-decoration: underline; */
-}
 
 .main {
     display: flex;
@@ -60,8 +48,8 @@ body {
     justify-content: space-evenly;
     gap: 1.5rem;
     /* margin-top: 5rem; */
-    background-color: #1A1A1A;
-    color: white;
+    /* background-color: #1A1A1A; */
+    /* color: white; */
 
 }
 
@@ -96,7 +84,7 @@ h3 {
     color: rgb(20, 121, 222);
     cursor: pointer;
     display: inline-block;
-    font-family: "arial";
+    font-family: "poppins";
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
@@ -119,9 +107,9 @@ h3 {
     gap: 1.5rem;
     
 }
-.section:hover{
+/* .section:hover{
     box-shadow: 0 10px 15px rgb(255, 255, 255);
-}
+} */
 
 .coding,
 .mental-health,
@@ -171,10 +159,10 @@ h3 {
     border: 2px solid #1A1A1A;
     border-radius: 15px;
     box-sizing: border-box;
-    color: #cdbcbc;
+    color: #010101;
     cursor: pointer;
     display: inline-block;
-    font-family: "arial";
+    font-family: "poppins";
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
@@ -220,7 +208,15 @@ h3 {
     /* max-width: 900px; */
     background: #01d28e !important;
     padding: 25px;
-    box-shadow: 0 10px 15px rgb(255, 253, 253);
+    box-shadow: 0 10px 15px rgb(0, 0, 0);
+    transition: .8s ease-out;
+  
+}
+.left:hover{
+    transform: scale(1.1);
+}
+.top-text{
+    padding-bottom: 12px;
 }
 
 .right {
@@ -229,8 +225,12 @@ h3 {
     justify-content: right;
     background: #faf200 !important;
     padding: 15px;
-    box-shadow: 0 10px 15px rgb(255, 0, 0);
+    box-shadow: 0 10px 15px rgb(5, 5, 5);
+    transition: .8s ease-out;
 
+}
+.right:hover{
+    transform: scale(1.1);
 }
 
 .know-us {
@@ -297,4 +297,38 @@ h3 {
     padding: 8px 12px;
     font-size: 19px;
     font-family: "poppins";
+}
+/* footer */
+
+.panel-footer{
+    background-color: #01d28e;
+    color: white;
+    height: auto;
+    font-family: "poppins";
+}
+.container-top{
+    /* max-width: 1140px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .text-center{
+    font-size: 20px;
+ }
+.container-bottom{
+    display: flex;
+    justify-content: flex-start;
+    justify-items:center;
+    gap: 2.5rem;
+   
+}
+ 
+.section-left{
+    display: flex;
+    flex-direction: column;
+}
+.section-right{
+    display: flex;
+    gap: 1.3rem;
 }
