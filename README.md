@@ -3,6 +3,7 @@
 BTW this is reponsive in mobile too 😀
 
 hey you can check this website here: https://resourceful.netlify.app/
-                      BUT
+                    
+                    BUT
                       
-⏳this website is still under poduction.Lots of changes to be made -----
+⏳this website is still under production .Lots of changes to be made -----
