@@ -4,4 +4,5 @@ BTW this is reponsive in mobile too 😀
 
 hey you can check this website here: https://resourceful.netlify.app/
                       BUT
-⏳this website is still under poduction.will be live soon-----
+                      
+⏳this website is still under poduction.Lots of changes to be made -----
